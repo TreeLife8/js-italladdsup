@@ -1,0 +1,19 @@
+.CatchBanner {
+  background: var(--light-accent);
+  padding: 70px 0;
+}
+.CatchBanner .catch-phrase {
+  text-align: center;
+  padding-left: 180px;
+}
+.CatchBanner .sub-title {
+  padding-top: 100px;
+  color: var(--secondary-colour);
+}
+.CatchBanner .catch {
+  padding: 20px 60px 100px;
+}
+.CatchBanner .books {
+  display: block;
+  margin: auto;
+}

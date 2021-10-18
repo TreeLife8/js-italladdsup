@@ -1,0 +1,28 @@
+.Button .btn {
+  font-size: 25px;
+  background: var(--seamoss-colour);
+  color: white;
+  display: block;
+  padding-bottom: 12px;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  max-width: 370px;
+  transition: all 200ms ease-in-out;
+  box-shadow: var(--shadow);
+}
+.Button .btn:hover {
+  background-color: var(--dark-accent);
+  color: white;
+  cursor: pointer;
+}
+.Button a {
+  text-decoration: none;
+}
+@media (max-width: 570px) {
+  .Button .btn {
+    width: 60%;
+    font-size: 15px;
+  }
+}

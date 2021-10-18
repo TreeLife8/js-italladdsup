@@ -1,0 +1,6 @@
+.QualityService {
+  background: var(--light-accent);
+}
+.QualityService .sub-title {
+  color: var(--secondary-colour);
+}

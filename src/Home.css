@@ -1,0 +1,60 @@
+.Home .hero {
+  background: url(/src/images/beach-landscape.jpg) no-repeat center center fixed;
+  max-height: 800px;
+  height: 590px;
+  background-size: cover;
+}
+.Home .heading-logo {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+}
+.Home .service-intro {
+  background: url(/src/images/keyboard.jpg) no-repeat center center;
+  max-height: 800px;
+  height: 590px;
+  background-size: cover;
+}
+.Home .heading-title {
+  font-family: var(--main-font);
+  color: var(--dark-accent);
+  font-weight: 200;
+  font-size: 60px;
+  margin: 0;
+  margin-left: 30px;
+}
+.Home .service-quote {
+  font-family: var(--script-font);
+  font-size: 70px;
+  line-height: 1;
+  color: var(--secondary-colour);
+  padding: 30px 50px;
+}
+.Home .description {
+  opacity: 0.4;
+  font-size: 24px;
+  padding: 0px 50px;
+  color: var(--grey-accent);
+  font-weight: 200;
+  margin: 0;
+}
+.Home .advertise-banner {
+  padding: 100px;
+}
+.Home .sub-title {
+  color: var(--dark-accent);
+}
+@media (max-width: 570px) {
+  .Home .description {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .Home .service-quote {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .Home .heading-title {
+    font-size: 40px;
+    margin: 0;
+  }
+}

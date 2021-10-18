@@ -1,0 +1,70 @@
+footer {
+  margin-top: 20px;
+  color: var(--dark-accent);
+  font-family: var(----main-font);
+}
+footer .details {
+  padding: 5px;
+  font-family: var(--main-font);
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+footer .contact {
+  font-size: 12px;
+  text-align: start;
+}
+footer .contact-details {
+  padding-bottom: 20px;
+}
+footer .fas {
+  font-size: 30px;
+  padding-right: 20px;
+  text-align: end;
+}
+footer a {
+  text-decoration: none;
+  color: var(--dark-accent);
+}
+footer .logo,
+footer .sclogo {
+  display: block;
+  margin: auto;
+  padding-top: 15px;
+}
+
+footer .logo {
+  max-width: 300px;
+}
+footer hr {
+  border-color: var(--seamoss-colour);
+  max-width: 60%;
+  margin: 30px auto 40px;
+}
+footer .logotype {
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  padding: 20px;
+}
+footer .band {
+  background: var(--dark-accent);
+}
+footer .sclogo {
+  max-width: 170px;
+  padding: 20px;
+}
+footer .squiggle-code-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .fab {
+  padding: 15px;
+}
+
+footer .social-links {
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}

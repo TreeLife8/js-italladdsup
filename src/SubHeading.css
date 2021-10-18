@@ -1,0 +1,17 @@
+.SubHeading {
+  padding: 50px;
+}
+.SubHeading .title-divider {
+  margin: 30px auto 40px;
+}
+.SubHeading .sub-title {
+  color: var(--dark-accent);
+}
+@media (max-width: 570px) {
+  .SubHeading .sub-title {
+    font-size: 35px;
+  }
+  .SubHeading {
+    padding: 15px;
+  }
+}

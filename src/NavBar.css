@@ -1,0 +1,19 @@
+li {
+  font-size: 20px;
+  font-family: var(--main-font);
+}
+.navbar {
+  background: var(--dark-accent);
+
+  position: static;
+}
+.logo {
+  max-width: 80px;
+  padding: 0 0 0 5px;
+}
+.container-fluid {
+  padding: 0;
+}
+.navbar {
+  padding: 0;
+}
