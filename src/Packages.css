@@ -71,7 +71,31 @@
 .Packages .software {
   font-size: 18px;
 }
-.Packages .banner {
+.Packages .dark-banner {
+  background: var(--seamoss-colour);
+  /* margin-bottom: 30px; */
+}
+.Packages .light-banner {
   background: var(--light-accent);
-  margin-bottom: 30px;
+  margin: 0;
+  padding: 50px;
+}
+.Packages .image {
+  position: relative;
+  right: 150px;
+  top: 240px;
+}
+.Packages .title,
+.Packages .referee,
+.Packages .phrase {
+  color: white;
+}
+.Packages .phrase {
+  padding: 0px 90px;
+}
+.Packages .carousel-inner {
+  padding-top: 0;
+}
+.Packages .testimonal-carousel {
+  position: static;
 }

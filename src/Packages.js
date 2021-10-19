@@ -3,6 +3,8 @@ import "./Packages.css";
 import Arrow from "./images/IAAU - image - ocean arrow.png";
 import XERO from "./images/IAAU - image - Xero on devices.png";
 import AdvertiseBanner from "./AdvertiseBanner.js";
+import Testimonials from "./Testimonials";
+import desk from "./images/IAAU - images - workdesk.png";
 
 export default function Packages() {
   let packages = [
@@ -125,7 +127,10 @@ export default function Packages() {
           </div>
         </div>
       </div>
-      <div className="banner">
+      <div className="dark-banner pb-3">
+        <Testimonials img={desk} />
+      </div>
+      <div className="light-banner">
         <AdvertiseBanner
           catchphrase="Sick of feeling taxed?"
           title="Get a FREE consultation"

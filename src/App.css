@@ -10,6 +10,9 @@
   --seamoss-colour: #5b89a6;
   --shadow: 0 0 10px rgba(241, 241, 241, 0.747);
 }
+body {
+  font-family: var(--main-font);
+}
 .heading-title {
   font-family: var(--main-font);
   color: var(--secondary-colour);

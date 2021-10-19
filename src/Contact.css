@@ -1,0 +1,19 @@
+.Contact .sub-title {
+  text-align: start;
+  font-size: 60px;
+  color: var(--dark-accent);
+}
+.Contact .banner {
+  background: var(--light-accent);
+}
+.Contact .script {
+  font-family: var(--script-font);
+  color: var(--seamoss-colour);
+  font-size: 50px;
+  padding: 20px;
+}
+.Contact .contact {
+  padding: 5px 20px;
+  font-weight: 300;
+  color: var(--grey-accent);
+}

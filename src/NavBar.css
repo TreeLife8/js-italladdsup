@@ -5,7 +5,7 @@ li {
 .navbar {
   background: var(--dark-accent);
 
-  position: static;
+  /* position: static; */
 }
 .logo {
   max-width: 80px;

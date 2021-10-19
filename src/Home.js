@@ -9,6 +9,7 @@ import Services from "./Services";
 import CatchBanner from "./CatchBanner";
 import QualityService from "./QualityService";
 import Testimonials from "./Testimonials";
+import quotation from "./images/IAAU - image - quotation marks.png";
 import Dext from "./Dext";
 import Qualifications from "./Qualifications.js";
 import AdvertiseBanner from "./AdvertiseBanner.js";
@@ -62,7 +63,9 @@ export default function Home() {
           Then look no further!"
       />
       <QualityService />
-      <Testimonials />
+      <div className="tetimonial">
+        <Testimonials img={quotation} />
+      </div>
       <Dext />
       <AdvertiseBanner title="Contact me to discuss your needs!" />
       <Qualifications />

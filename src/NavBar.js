@@ -5,8 +5,8 @@ import logo from "./LOGO.png";
 
 export default function NavBar() {
   return (
-    <div className="container-fluid">
-      <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav className="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img src={logo} className="logo" alt="Squiggle Code logo" />
         </Link>
@@ -40,7 +40,7 @@ export default function NavBar() {
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
