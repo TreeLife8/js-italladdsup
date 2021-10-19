@@ -16,7 +16,7 @@ import AdvertiseBanner from "./AdvertiseBanner.js";
 
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 2000, easing: "ease-in-sine", delay: 50 });
+    Aos.init({ duration: 2000, easing: "ease-in-sine" });
   });
   return (
     <div className="Home container-fluid">

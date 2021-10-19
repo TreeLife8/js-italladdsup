@@ -15,5 +15,5 @@
 }
 
 .custom-shape-divider-bottom-1634265382 .shape-fill {
-  fill: #eaeaea;
+  fill: var(--light-accent);
 }

@@ -58,7 +58,7 @@ export default function Services() {
     },
   ];
   return (
-    <div className="Services pt-5 pb-5">
+    <div className="Services">
       <SubHeading heading="Here for you..." />
       <div className="row">
         {services.map(function (service, index) {

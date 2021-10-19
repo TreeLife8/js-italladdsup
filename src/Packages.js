@@ -74,7 +74,7 @@ export default function Packages() {
         <ShapeDivider />
       </div>
       <div className="container">
-        <div className="row">
+        <div className="row" data-aos="fade-up">
           {packages.map(function (service, index) {
             return (
               <div key={index} className="col-sm">

@@ -1,5 +1,6 @@
 .Home .hero {
-  background: url(/src/images/beach-landscape.jpg) no-repeat center center fixed;
+  background: url(/src/images/IAAU - image - ocean banner reduced.jpg) no-repeat
+    center center fixed;
   max-height: 800px;
   height: 590px;
   background-size: cover;
@@ -10,10 +11,15 @@
   margin: auto;
 }
 .Home .service-intro {
-  background: url(/src/images/keyboard.jpg) no-repeat center center;
+  background: url(/src/images/IAAU - image - keybard and pen.png) no-repeat
+    center center;
+  background-color: var(--light-accent);
   max-height: 800px;
   height: 590px;
   background-size: cover;
+  z-index: 10;
+  position: relative;
+  top: -50px;
 }
 .Home .heading-title {
   margin: 0;

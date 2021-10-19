@@ -72,3 +72,8 @@ footer .social-links {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 570px) {
+  footer .logotype {
+    max-width: 200px;
+  }
+}

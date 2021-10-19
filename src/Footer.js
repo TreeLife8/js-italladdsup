@@ -48,7 +48,7 @@ export default function Footer() {
       <div className="band">
         <Link to="/">
           <img
-            className="logotype"
+            className="logotype img-fluid"
             src={logotype}
             alt="it all adds up logotype"
           />
