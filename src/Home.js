@@ -9,6 +9,9 @@ import Services from "./Services";
 import CatchBanner from "./CatchBanner";
 import QualityService from "./QualityService";
 import Testimonials from "./Testimonials";
+import Dext from "./Dext";
+import Qualifications from "./Qualifications.js";
+import AdvertiseBanner from "./AdvertiseBanner.js";
 
 export default function Home() {
   useEffect(() => {
@@ -53,20 +56,16 @@ export default function Home() {
       </div>
       <Services />
       <CatchBanner />
-      <div className="advertise-banner" data-aos="fade-zoom-up">
-        <hr className="title-divider divider-top" />
-        <h2 className="sub-title">Get a FREE consultation</h2>
-        <p className="catch">
-          Do you want your work/life balance back?
-          <br />
-          Then look no further!
-        </p>
-        <div className="mt-5">
-          <Button type="book a consultation" link="/Contact" />
-        </div>
-      </div>
+      <AdvertiseBanner
+        title="Get a FREE consultation"
+        catch="Do you want your work/life balance back?
+          Then look no further!"
+      />
       <QualityService />
       <Testimonials />
+      <Dext />
+      <AdvertiseBanner title="Contact me to discuss your needs!" />
+      <Qualifications />
     </div>
   );
 }

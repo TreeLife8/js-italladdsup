@@ -1,0 +1,10 @@
+.Dext {
+  background: var(--light-accent);
+  padding: 150px 50px 80px;
+}
+.Dext .quote {
+  text-align: center;
+}
+.Dext .service-quote {
+  padding: 15px;
+}

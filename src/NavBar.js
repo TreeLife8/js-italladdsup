@@ -29,18 +29,13 @@ export default function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Features">
-                Features
+              <Link className="nav-link" to="/Packages">
+                Packages
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/Contact">
                 Contact
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Landing">
-                Landing
               </Link>
             </li>
           </ul>

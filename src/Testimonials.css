@@ -1,9 +1,15 @@
 .Testimonials .qualtation {
   position: relative;
-  right: 350px;
+  right: 250px;
+  bottom: 50px;
 }
 .Testimonials .carousel-inner {
-  padding: 50px 150px;
+  padding: 50px;
+}
+.Testimonials .testimonal-carousel {
+  position: relative;
+  z-index: 10;
+  left: 155px;
 }
 .Testimonials .sub-title {
   padding: 80px 0 0;

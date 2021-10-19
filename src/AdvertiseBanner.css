@@ -1,0 +1,13 @@
+.AdvertiseBanner .advertise-banner {
+  padding: 80px;
+}
+.AdvertiseBanner .catch {
+  padding: 0px 300px 0;
+}
+.AdvertiseBanner .catchphrase {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.AdvertiseBanner .sub-title {
+  padding: 0px 0 30px;
+}

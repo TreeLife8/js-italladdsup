@@ -16,10 +16,6 @@
   background-size: cover;
 }
 .Home .heading-title {
-  font-family: var(--main-font);
-  color: var(--dark-accent);
-  font-weight: 200;
-  font-size: 60px;
   margin: 0;
   margin-left: 30px;
 }
@@ -38,9 +34,7 @@
   font-weight: 200;
   margin: 0;
 }
-.Home .advertise-banner {
-  padding: 100px;
-}
+
 .Home .sub-title {
   color: var(--dark-accent);
 }

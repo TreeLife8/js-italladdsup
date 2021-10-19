@@ -7,7 +7,7 @@ export default function Testimonials() {
     <div className="Testimonials container">
       <h2 className="sub-title">Testimonials</h2>
       <div className="row">
-        <div className="col-sm-10">
+        <div className="col-sm-9 testimonal-carousel">
           <div
             id="carouselExampleInterval"
             className="carousel slide"
@@ -17,8 +17,8 @@ export default function Testimonials() {
               <div className="carousel-item active" data-bs-interval="10000">
                 <p class="catch">
                   <em>
-                    Jane, you supply a great service and have helped me out so
-                    much Starting this business and am happy - Thank you!
+                    you supply a great service and have helped me out so much
+                    Starting this business and am happy - Thank you!
                   </em>
                 </p>
                 <h4>Northern Beaches Fabrication</h4>
@@ -36,9 +36,9 @@ export default function Testimonials() {
               <div className="carousel-item">
                 <p class="catch">
                   <em>
-                    Jane, you are someone I love working with given your
-                    friendly nature, professionalism and most importantly the
-                    level of care you provide for clients.
+                    ...you are someone I love working with given your friendly
+                    nature, professionalism and most importantly the level of
+                    care you provide for clients.
                   </em>
                 </p>
                 <h4>Strategic Accounting</h4>
@@ -70,7 +70,7 @@ export default function Testimonials() {
             </button>
           </div>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-3">
           <img className="qualtation" src={quotation} alt="quotation marks" />
         </div>
       </div>

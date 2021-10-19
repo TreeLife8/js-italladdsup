@@ -1,0 +1,7 @@
+.Qualifications {
+  background: var(--primary-colour);
+  padding: 80px 20px;
+}
+.Qualifications .cert-symbol {
+  border-radius: 4px;
+}
