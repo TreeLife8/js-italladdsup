@@ -19,7 +19,7 @@ export default function Dext() {
           <div className="col-sm-4">
             <img
               data-aos="fade-zoom-up"
-              className="img-fluid"
+              className="img-fluid dext-logo"
               src={DextLogo}
               alt="DEXT logo"
             />

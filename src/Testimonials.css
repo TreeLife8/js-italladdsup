@@ -20,3 +20,21 @@
   opacity: 0.6;
   text-align: center;
 }
+@media (max-width: 570px) {
+  .Testimonials .image {
+    position: relative;
+    right: -80px;
+    bottom: 150px;
+    max-width: 250px;
+  }
+  .Testimonials .sub-title {
+    padding: 30px 0 0;
+    font-size: 30px;
+  }
+  .Testimonials .testimonal-carousel {
+    left: 0px;
+  }
+  .Testimonials .carousel-inner {
+    padding: 5px;
+  }
+}

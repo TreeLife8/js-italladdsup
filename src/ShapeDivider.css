@@ -17,3 +17,11 @@
 .custom-shape-divider-bottom-1634265382 .shape-fill {
   fill: var(--light-accent);
 }
+@media (max-width: 570px) {
+  .custom-shape-divider-bottom-1634265382 {
+    top: 415px;
+  }
+  .custom-shape-divider-bottom-1634265382 svg {
+    height: 50px;
+  }
+}

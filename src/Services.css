@@ -1,3 +1,8 @@
 .Services .padding {
   padding: 0;
 }
+@media (max-width: 570px) {
+  .Services .card-img-top {
+    max-width: 60px;
+  }
+}

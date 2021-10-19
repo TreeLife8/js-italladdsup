@@ -4,3 +4,8 @@
 .QualityService .sub-title {
   color: var(--secondary-colour);
 }
+@media (max-width: 570px) {
+  .QualityService .card-img-top {
+    max-width: 60px;
+  }
+}

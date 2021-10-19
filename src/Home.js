@@ -34,26 +34,24 @@ export default function Home() {
         <ShapeDivider />
       </div>
       <div className="container-fluid service-intro mt-4">
-        <div className="row">
-          <h1 data-aos="fade-right" className="heading-title mt-5">
-            Based on the Northern Beaches
-          </h1>
-          <h4
-            data-aos="fade-right"
-            data-aos-delay="200"
-            className="service-quote"
-          >
-            over 15 years experience
-            <br /> in bookkeeping
-          </h4>
-          <p data-aos="fade-right" className="description">
-            providing businesses with accurate records of their transactions and
-            sales revenue
-          </p>
-          <p data-aos="fade-right" className="description">
-            whilst running their payrolls in an efficient and timely manner
-          </p>
-        </div>
+        <h1 data-aos="fade-right" className="heading-title mt-5">
+          Based on the Northern Beaches
+        </h1>
+        <h4
+          data-aos="fade-right"
+          data-aos-delay="200"
+          className="service-quote"
+        >
+          over 15 years experience
+          <br /> in bookkeeping
+        </h4>
+        <p data-aos="fade-right" className="description">
+          providing businesses with accurate records of their transactions and
+          sales revenue
+        </p>
+        <p data-aos="fade-right" className="description">
+          whilst running their payrolls in an efficient and timely manner
+        </p>
       </div>
       <Services />
       <CatchBanner />
