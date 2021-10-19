@@ -41,7 +41,7 @@ body {
 }
 .divider-top {
   display: block;
-  margin: 5px auto 80px;
+  margin: 5px auto 50px;
   width: 40%;
 }
 @media (max-width: 570px) {

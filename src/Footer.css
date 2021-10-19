@@ -1,7 +1,11 @@
 footer {
-  margin-top: 20px;
+  margin-top: 60px;
   color: var(--dark-accent);
   font-family: var(----main-font);
+}
+footer .arrow {
+  margin: 0;
+  padding: 0;
 }
 footer .details {
   padding: 5px;

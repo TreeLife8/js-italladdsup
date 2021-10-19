@@ -4,11 +4,16 @@ import "./Footer.css";
 import logo from "./images/Logos/IAAU - LOGO - full rectangle - 1024 - blue on transparent.png";
 import logotype from "./images/Logos/IAAU - LOGO - type only - white on transparent.png";
 import SCLogo from "./images/Logos/Logo no background CROPPED.png";
+import Arrow from "./images/IAAU - image - ocean arrow.png";
 
 export default function Footer() {
   return (
     <footer>
-      <hr />
+      <img
+        src={Arrow}
+        alt="arrow shape divider with ocean texture design element"
+        className="img-fluid arrow"
+      />
       <div className="row container-fluid pb-3">
         <div className="col-sm contact-details">
           <div className="details">

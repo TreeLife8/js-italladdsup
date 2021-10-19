@@ -1,10 +1,10 @@
 import React from "react";
 import "./Packages.css";
-import Arrow from "./images/IAAU - image - ocean arrow.png";
 import XERO from "./images/IAAU - image - Xero on devices.png";
 import AdvertiseBanner from "./AdvertiseBanner.js";
 import Testimonials from "./Testimonials";
 import desk from "./images/IAAU - images - workdesk.png";
+import ShapeDivider from "./ShapeDivider";
 
 export default function Packages() {
   let packages = [
@@ -70,12 +70,8 @@ export default function Packages() {
   return (
     <div className="Packages">
       <div className="hero container-fluid">
-        <h1 className="sub-title">Packages</h1>
-        <img
-          src={Arrow}
-          alt="arrow shape divider with ocean texture design element"
-          className="img-fluid"
-        />
+        <h1 className="heading">Packages</h1>
+        <ShapeDivider />
       </div>
       <div className="container">
         <div className="row">
