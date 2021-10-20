@@ -27,3 +27,19 @@
     font-size: 20px;
   }
 }
+@media (max-width: 768px) {
+  .AdvertiseBanner .advertise-banner {
+    padding: 10px;
+    margin: 30px 0;
+  }
+  .AdvertiseBanner .sub-title {
+    font-size: 35px;
+  }
+  .AdvertiseBanner {
+    text-align: center;
+  }
+  .AdvertiseBanner .catch {
+    padding: 10px;
+    font-size: 22px;
+  }
+}

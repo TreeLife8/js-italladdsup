@@ -14,7 +14,6 @@
   background: url(/src/images/IAAU - image - keybard and pen.png) no-repeat
     center center;
   background-color: var(--light-accent);
-  max-height: 800px;
   height: 590px;
   background-size: cover;
   z-index: 10;
@@ -68,4 +67,28 @@
   .Home .tetimonial {
     padding: 30px 0 0;
   }
+}
+@media (max-width: 768px) {
+  .Home .hero {
+    height: 480px;
+  }
+  .Home .service-intro {
+    height: 350px;
+  }
+  .Home .description {
+    font-size: 20px;
+    padding: 5px 200px 0 45px;
+  }
+  .Home .service-quote {
+    font-size: 35px;
+    padding: 20px 45px;
+  }
+  .Home .heading-title {
+    font-size: 40px;
+    margin: 20px 40px 0;
+    padding-top: 30px;
+  }
+  /* .Home .tetimonial {
+    padding: 30px 0 0;
+  } */
 }

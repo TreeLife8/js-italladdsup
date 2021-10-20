@@ -38,3 +38,21 @@
     padding: 5px;
   }
 }
+@media (max-width: 768px) {
+  .Testimonials .image {
+    position: relative;
+    right: 80px;
+    bottom: -140px;
+    max-width: 250px;
+  }
+  .Testimonials .sub-title {
+    padding: 30px 0 0;
+    font-size: 30px;
+  }
+  .Testimonials .testimonal-carousel {
+    left: 80px;
+  }
+  .Testimonials .carousel-inner {
+    padding: 5px;
+  }
+}

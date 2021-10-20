@@ -30,3 +30,16 @@
     padding: 20px;
   }
 }
+@media (max-width: 768px) {
+  .CatchBanner .sub-title {
+    padding-top: 50px;
+    font-size: 35px;
+  }
+  .CatchBanner .catch-phrase {
+    padding-left: 0px;
+  }
+  .CatchBanner .catch {
+    font-size: 22px;
+    padding: 20px;
+  }
+}
