@@ -8,19 +8,20 @@
 .Dext .service-quote {
   padding: 15px;
 }
-@media (max-width: 570px) {
+@media (max-width: 578px) {
   .Dext .heading-title {
-    font-size: 30px;
+    font-size: 27px;
+    padding-bottom: 10px;
   }
   .Dext {
-    padding: 60px 10px 30px;
+    padding: 60px 5px 30px;
   }
   .Dext .service-quote {
     padding: 5px;
   }
   .Dext .quote {
     position: relative;
-    top: -50px;
+    top: -80px;
   }
   .Dext .dext-logo {
     max-width: 220px;

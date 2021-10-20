@@ -44,7 +44,7 @@ body {
   margin: 5px auto 50px;
   width: 40%;
 }
-@media (max-width: 570px) {
+@media (max-width: 578px) {
   .mobile-hidden {
     display: none;
   }

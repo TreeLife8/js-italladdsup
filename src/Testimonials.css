@@ -41,8 +41,8 @@
 @media (max-width: 576px) {
   .Testimonials .image {
     position: relative;
-    right: -20px;
-    bottom: 100px;
+    right: -120px;
+    bottom: 70px;
     max-width: 250px;
   }
   .Testimonials .sub-title {

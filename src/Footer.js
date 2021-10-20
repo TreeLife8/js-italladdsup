@@ -41,7 +41,11 @@ export default function Footer() {
         </div>
         <div className="col-sm">
           <Link to="/">
-            <img className="logo" src={logo} alt="It all adds up logo" />
+            <img
+              className="logo mobile-hidden"
+              src={logo}
+              alt="It all adds up logo"
+            />
           </Link>
         </div>
       </div>

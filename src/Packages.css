@@ -150,9 +150,11 @@
     padding-top: 50px;
   }
   .Packages .custom-shape-divider-bottom-1634265382 {
-    top: 450px;
+    top: 350px;
   }
   .Packages .card {
+    margin: 20px auto;
+    display: block;
     width: 18rem;
   }
   .Packages .quote {
