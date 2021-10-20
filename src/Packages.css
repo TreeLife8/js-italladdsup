@@ -115,6 +115,34 @@
   position: static;
 }
 @media (max-width: 570px) {
+  .Packages .hero {
+    height: 300px;
+  }
+  .Packages .heading {
+    font-size: 60px;
+    padding-top: 50px;
+  }
+  .Packages .custom-shape-divider-bottom-1634265382 {
+    top: 450px;
+  }
+  .Packages .card {
+    width: 18rem;
+  }
+  .Packages .xero-img {
+    position: relative;
+    top: -80px;
+    left: 50px;
+  }
+  .Packages .heading-title {
+    text-align: start;
+    font-size: 40px;
+    position: relative;
+    right: 385px;
+  }
+  .Packages .softwares {
+    position: relative;
+    right: 385px;
+  }
 }
 @media (max-width: 768px) {
   .Packages .hero {
