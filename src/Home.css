@@ -36,7 +36,7 @@
   font-size: 24px;
   padding: 0px 50px;
   color: var(--grey-accent);
-  font-weight: 200;
+  font-weight: 300;
   margin: 0;
 }
 .Home .tetimonial {
@@ -66,9 +66,6 @@
     margin: 20px 40px 0;
     padding-top: 30px;
   }
-  /* .Home .tetimonial {
-    padding: 30px 0 0;
-  } */
 }
 @media (max-width: 576px) {
   .Home .hero {
@@ -91,5 +88,23 @@
   }
   .Home .tetimonial {
     padding: 30px 0 0;
+  }
+}
+@media (min-width: 1300px) {
+  .Home .hero {
+    height: 700px;
+  }
+  .Home .service-intro {
+    height: 900px;
+    top: 10px;
+  }
+  .Home .heading-title {
+    font-size: 80px;
+  }
+  .Home .service-quote {
+    font-size: 80px;
+  }
+  .Home .description {
+    font-size: 30px;
   }
 }

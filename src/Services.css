@@ -6,3 +6,8 @@
     max-width: 60px;
   }
 }
+@media (min-width: 1300px) {
+  .Services {
+    padding: 50px 300px;
+  }
+}

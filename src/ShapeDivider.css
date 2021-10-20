@@ -33,3 +33,11 @@
     height: 50px;
   }
 }
+@media (min-width: 1300px) {
+  .custom-shape-divider-bottom-1634265382 {
+    top: 700px;
+  }
+  .custom-shape-divider-bottom-1634265382 svg {
+    height: 175px;
+  }
+}

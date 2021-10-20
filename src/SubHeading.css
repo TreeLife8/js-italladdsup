@@ -23,3 +23,8 @@
     padding: 15px;
   }
 }
+@media (min-width: 1300px) {
+  .SubHeading .sub-title {
+    font-size: 65px;
+  }
+}

@@ -63,29 +63,31 @@ export default function QualityService() {
     },
   ];
   return (
-    <div className="QualityService container-fluid pt-4 pb-5">
-      <SubHeading heading="Trusted services" />
-      <div className="row">
-        {qualities.map(function (quality, index) {
-          return (
-            <div
-              key={index}
-              className="col-sm d-flex justify-content-evenly  text-center"
-            >
-              <div className="card">
-                <img
-                  src={quality.icon}
-                  className="card-img-top"
-                  alt={quality.alt}
-                />
-                <div className="card-body">
-                  <h5 className="card-title">{quality.name}</h5>
-                  <p className="card-text">{quality.description}</p>
+    <div className="QualityService pt-4 pb-5">
+      <div className="container">
+        <SubHeading heading="Trusted services" />
+        <div className="row">
+          {qualities.map(function (quality, index) {
+            return (
+              <div
+                key={index}
+                className="col-sm d-flex justify-content-evenly  text-center"
+              >
+                <div className="card">
+                  <img
+                    src={quality.icon}
+                    className="card-img-top"
+                    alt={quality.alt}
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">{quality.name}</h5>
+                    <p className="card-text">{quality.description}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );
