@@ -114,3 +114,31 @@
 .Packages .testimonal-carousel {
   position: static;
 }
+@media (max-width: 570px) {
+}
+@media (max-width: 768px) {
+  .Packages .hero {
+    height: 450px;
+  }
+  .Packages .custom-shape-divider-bottom-1634265382 {
+    top: 500px;
+  }
+  .Packages .card {
+    width: 21rem;
+  }
+  .Packages .xero-img {
+    position: relative;
+    top: -100px;
+    left: 280px;
+  }
+  .Packages .heading-title {
+    text-align: start;
+    font-size: 40px;
+    position: relative;
+    right: 385px;
+  }
+  .Packages .softwares {
+    position: relative;
+    right: 385px;
+  }
+}
