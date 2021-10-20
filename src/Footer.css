@@ -76,4 +76,10 @@ footer .social-links {
   footer .logotype {
     max-width: 200px;
   }
+  footer .logo {
+    max-width: 270px;
+  }
+  footer .details {
+    margin-left: 10px;
+  }
 }
