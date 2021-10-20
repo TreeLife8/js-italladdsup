@@ -45,29 +45,7 @@
 .Home .sub-title {
   color: var(--dark-accent);
 }
-@media (max-width: 570px) {
-  .Home .hero {
-    height: 380px;
-  }
-  .Home .service-intro {
-    height: 300px;
-  }
-  .Home .description {
-    font-size: 15px;
-    padding: 10px;
-  }
-  .Home .service-quote {
-    font-size: 30px;
-    padding: 20px;
-  }
-  .Home .heading-title {
-    font-size: 40px;
-    margin: 0;
-  }
-  .Home .tetimonial {
-    padding: 30px 0 0;
-  }
-}
+
 @media (max-width: 768px) {
   .Home .hero {
     height: 480px;
@@ -91,4 +69,27 @@
   /* .Home .tetimonial {
     padding: 30px 0 0;
   } */
+}
+@media (max-width: 576px) {
+  .Home .hero {
+    height: 380px;
+  }
+  .Home .service-intro {
+    height: 300px;
+  }
+  .Home .description {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .Home .service-quote {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .Home .heading-title {
+    font-size: 40px;
+    margin: 0;
+  }
+  .Home .tetimonial {
+    padding: 30px 0 0;
+  }
 }

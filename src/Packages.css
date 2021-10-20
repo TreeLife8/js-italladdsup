@@ -114,36 +114,7 @@
 .Packages .testimonal-carousel {
   position: static;
 }
-@media (max-width: 570px) {
-  .Packages .hero {
-    height: 300px;
-  }
-  .Packages .heading {
-    font-size: 60px;
-    padding-top: 50px;
-  }
-  .Packages .custom-shape-divider-bottom-1634265382 {
-    top: 450px;
-  }
-  .Packages .card {
-    width: 18rem;
-  }
-  .Packages .xero-img {
-    position: relative;
-    top: -80px;
-    left: 50px;
-  }
-  .Packages .heading-title {
-    text-align: start;
-    font-size: 40px;
-    position: relative;
-    right: 385px;
-  }
-  .Packages .softwares {
-    position: relative;
-    right: 385px;
-  }
-}
+
 @media (max-width: 768px) {
   .Packages .hero {
     height: 450px;
@@ -164,6 +135,50 @@
     font-size: 40px;
     position: relative;
     right: 385px;
+  }
+  .Packages .softwares {
+    position: relative;
+    right: 385px;
+  }
+}
+@media (max-width: 578px) {
+  .Packages .hero {
+    height: 300px;
+  }
+  .Packages .heading {
+    font-size: 60px;
+    padding-top: 50px;
+  }
+  .Packages .custom-shape-divider-bottom-1634265382 {
+    top: 450px;
+  }
+  .Packages .card {
+    width: 18rem;
+  }
+  .Packages .xero-img {
+    position: relative;
+    top: -80px;
+    left: 50px;
+  }
+  .Packages .image {
+    position: relative;
+    right: -40px;
+    top: 50px;
+  }
+  .Packages .heading-title {
+    text-align: start;
+    font-size: 40px;
+    position: relative;
+    right: 385px;
+  }
+  .Packages .light-banner {
+    padding: 20px 5px;
+  }
+  .Packages .phrase {
+    padding: 10px 5px;
+  }
+  .Packages .dark-banner {
+    padding: 20px 0;
   }
   .Packages .softwares {
     position: relative;

@@ -17,19 +17,6 @@
   display: block;
   margin: auto;
 }
-@media (max-width: 570px) {
-  .CatchBanner .sub-title {
-    padding-top: 50px;
-    font-size: 30px;
-  }
-  .CatchBanner .catch-phrase {
-    padding-left: 0px;
-  }
-  .CatchBanner .catch {
-    font-size: 20px;
-    padding: 20px;
-  }
-}
 @media (max-width: 768px) {
   .CatchBanner .sub-title {
     padding-top: 50px;
@@ -40,6 +27,19 @@
   }
   .CatchBanner .catch {
     font-size: 22px;
+    padding: 20px;
+  }
+}
+@media (max-width: 570px) {
+  .CatchBanner .sub-title {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+  .CatchBanner .catch-phrase {
+    padding-left: 0px;
+  }
+  .CatchBanner .catch {
+    font-size: 20px;
     padding: 20px;
   }
 }

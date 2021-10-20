@@ -17,6 +17,22 @@
   font-weight: 300;
   color: var(--grey-accent);
 }
+@media (max-width: 768px) {
+  .Contact .sub-title {
+    font-size: 50px;
+  }
+  .Contact .banner {
+    margin: 10px;
+  }
+  .Contact .script {
+    font-size: 35px;
+    padding: 15px;
+  }
+  .Contact .contact {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+}
 @media (max-width: 570px) {
   .Contact .sub-title {
     text-align: center;
@@ -36,22 +52,6 @@
   }
   .Contact .contact {
     font-size: 18px;
-    padding: 5px 10px;
-  }
-}
-@media (max-width: 768px) {
-  .Contact .sub-title {
-    font-size: 50px;
-  }
-  .Contact .banner {
-    margin: 10px;
-  }
-  .Contact .script {
-    font-size: 35px;
-    padding: 15px;
-  }
-  .Contact .contact {
-    font-size: 20px;
     padding: 5px 10px;
   }
 }

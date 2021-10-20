@@ -11,22 +11,6 @@
 .AdvertiseBanner .sub-title {
   padding: 0px 0 10px;
 }
-@media (max-width: 570px) {
-  .AdvertiseBanner .advertise-banner {
-    padding: 10px;
-    margin: 30px 0;
-  }
-  .AdvertiseBanner .sub-title {
-    font-size: 30px;
-  }
-  .AdvertiseBanner {
-    text-align: center;
-  }
-  .AdvertiseBanner .catch {
-    padding: 10px;
-    font-size: 20px;
-  }
-}
 @media (max-width: 768px) {
   .AdvertiseBanner .advertise-banner {
     padding: 10px;
@@ -41,5 +25,21 @@
   .AdvertiseBanner .catch {
     padding: 10px;
     font-size: 22px;
+  }
+}
+@media (max-width: 570px) {
+  .AdvertiseBanner .advertise-banner {
+    padding: 10px;
+    margin: 30px 0;
+  }
+  .AdvertiseBanner .sub-title {
+    font-size: 25px;
+  }
+  .AdvertiseBanner {
+    text-align: center;
+  }
+  .AdvertiseBanner .catch {
+    padding: 10px;
+    font-size: 20px;
   }
 }
