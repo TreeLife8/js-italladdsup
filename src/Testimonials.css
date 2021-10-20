@@ -1,4 +1,4 @@
-.Testimonials .image {
+.c .image {
   position: relative;
   right: 250px;
   bottom: 50px;
@@ -42,7 +42,7 @@
   .Testimonials .image {
     position: relative;
     right: -20px;
-    bottom: 150px;
+    bottom: 100px;
     max-width: 250px;
   }
   .Testimonials .sub-title {
@@ -50,9 +50,15 @@
     font-size: 30px;
   }
   .Testimonials .testimonal-carousel {
-    left: -50px;
+    left: 0px;
   }
   .Testimonials .carousel-inner {
     padding: 5px;
+  }
+  .Testimonials .phrase {
+    font-size: 18px;
+  }
+  .Testimonials {
+    padding: 20px 0 0;
   }
 }

@@ -18,6 +18,10 @@
   .Dext .service-quote {
     padding: 5px;
   }
+  .Dext .quote {
+    position: relative;
+    top: -50px;
+  }
   .Dext .dext-logo {
     max-width: 220px;
     position: relative;
