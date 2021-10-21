@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import workdesk from "./images/IAAU - images - workdesk w computer.png";
+import MailTo from "./MailTo";
 
 export default function Contact() {
   return (
@@ -13,6 +14,12 @@ export default function Contact() {
           <div className="col-sm banner">
             <h5 className="script">Contact Jane</h5>
             <h4 className="contact">0407 235 772</h4>
+            <div className="contact mt-3">
+              <MailTo
+                label="Send me an e-mail"
+                mailto="mailto:jane@italladdsup.com.au"
+              />
+            </div>
             <h4 className="contact">jane@italladdsup.com.au</h4>
           </div>
           <div className="col-sm">

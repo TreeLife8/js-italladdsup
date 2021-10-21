@@ -5,6 +5,7 @@ import logo from "./images/Logos/IAAU - LOGO - full rectangle - 1024 - blue on t
 import logotype from "./images/Logos/IAAU - LOGO - type only - white on transparent.png";
 import SCLogo from "./images/Logos/Logo no background CROPPED.png";
 import Arrow from "./images/IAAU - image - ocean arrow.png";
+import MailTo from "./MailTo";
 
 export default function Footer() {
   return (
@@ -18,9 +19,12 @@ export default function Footer() {
         <div className="col-sm contact-details">
           <div className="details">
             <i className="fas fa-envelope-square"></i>
-            <Link className="contact ms-2" to="mailto: jane@italladdsup.com.au">
-              jane@italladdsup.com.au
-            </Link>
+            <span className="contact ms-2">
+              <MailTo
+                label="jane@italladdsup.com.au"
+                mailto="mailto:jane@italladdsup.com.au"
+              />
+            </span>
           </div>
           <div className="details">
             <i className="fas fa-phone-square-alt"></i>
@@ -32,20 +36,24 @@ export default function Footer() {
           </div>
         </div>
         <div className="col-sm d-flex social-links">
-          <a href="https://www.facebook.com/italladdsupbookkeeping">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/italladdsupbookkeeping"
+          >
             <i className="fab fa-facebook-square"></i>
           </a>
-          <a href="https://www.linkedin.com/company/it-all-adds-up-bookkeeping-&-secretarial-services/about/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/company/it-all-adds-up-bookkeeping-&-secretarial-services/about/"
+          >
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
-        <div className="col-sm">
+        <div className="col-sm mobile-hidden">
           <Link to="/">
-            <img
-              className="logo mobile-hidden"
-              src={logo}
-              alt="It all adds up logo"
-            />
+            <img className="logo " src={logo} alt="It all adds up logo" />
           </Link>
         </div>
       </div>

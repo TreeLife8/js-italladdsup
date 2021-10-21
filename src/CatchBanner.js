@@ -14,7 +14,7 @@ export default function CatchBanner() {
         <div data-aos="fade-zoom-in" className="col-sm-8 catch-phrase">
           <h2 className="sub-title">...so you can focus.</h2>
           <p className="catch">
-            Get peace of with clear reports and reliable advice, so you can
+            Get peace of mind with clear reports and reliable advice, so you can
             focus on what really matters!
           </p>
         </div>

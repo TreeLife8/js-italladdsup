@@ -1,0 +1,6 @@
+.MailTo a {
+  color: var(--seamoss-colour);
+  font-weight: 400;
+  font-family: var(--main-font);
+  text-decoration: none;
+}

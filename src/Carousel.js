@@ -9,21 +9,21 @@ export default function Carousel() {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item active" data-bs-interval="5000">
             <p class="catch phrase">
               <em>
-                you supply a great service and have helped me out so much
-                Starting this business and am happy - Thank you!
+                You supply a great service and have helped me out so much
+                starting this business and am happy - Thank you!
               </em>
             </p>
             <h4 className="referee">Northern Beaches Fabrication</h4>
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
+          <div className="carousel-item" data-bs-interval="5000">
             <p class="catch phrase">
               <em>
-                Jane, you are fantastic and Daz and I value you as a team member
-                at Hydrant. Thank you for your strategic outlook and always
-                looking out for us!!!!
+                Jane, you are fantastic, Daz and I value you as a team member at
+                Hydrant. Thank you for your strategic outlook and always looking
+                out for us!!!!
               </em>
             </p>
             <h4 className="referee">Hydrant</h4>
