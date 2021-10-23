@@ -70,6 +70,7 @@
 @media (max-width: 576px) {
   .Home .hero {
     height: 380px;
+    position: relative;
   }
   .Home .service-intro {
     height: 400px;
