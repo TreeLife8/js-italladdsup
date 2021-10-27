@@ -12,56 +12,68 @@ import "./Cards.css";
 import "./QualityService.css";
 
 export default function QualityService() {
-  let qualities = [
-    {
-      name: "Reliable",
-      description: "fully certified & insured over 15 years of experience",
-      icon: `${Reliable}`,
-      alt: "Certificate with badge",
-    },
-    {
-      name: "Up-to-date",
-      description: "with new laws, regulations & technology",
-      icon: `${uptodate}`,
-      alt: "Calander with time tick",
-    },
-    {
-      name: "Integration",
-      description: "with leading financial softwares such as MYOB and XERO",
-      icon: `${integration}`,
-      alt: "puzzles fitting together",
-    },
-    {
-      name: "Local",
-      description: "Based in Sydney, Northern Beaches",
-      icon: `${local}`,
-      alt: "pin drop on map",
-    },
-    {
-      name: "Accurate",
-      description: "reports & predictions for business growth",
-      icon: `${accurate}`,
-      alt: "target on-point",
-    },
-    {
-      name: "COVID advice",
-      description: "on relevant government subsidies",
-      icon: `${covidadvice}`,
-      alt: "pulse image",
-    },
-    {
-      name: "Fast & efficient",
-      description: "timely reporting & lodging to remain compliant",
-      icon: `${efficient}`,
-      alt: "stop watch",
-    },
-    {
-      name: "Cloud based",
-      description: "live access to information and progress tracking",
-      icon: `${cloudbased}`,
-      alt: "cloud-based technology",
-    },
-  ];
+  let qualities = [];
+  function Qualities(name, description, icon, alt) {
+    this.name = name;
+    this.description = description;
+    this.icon = icon;
+    this.alt = alt;
+    qualities.push({
+      name: this.name,
+      description: this.description,
+      icon: this.icon,
+      alt: this.alt,
+    });
+    console.log(qualities);
+  }
+  new Qualities(
+    "Reliable",
+    "fully certified & insured over 15 years of experience",
+    `${Reliable}`,
+    "Certificate with badge"
+  );
+  new Qualities(
+    "Up-to-date",
+    "with new laws, regulations & technology",
+    `${uptodate}`,
+    "Calander with time tick"
+  );
+  new Qualities(
+    "Integration",
+    "with leading financial softwares such as MYOB and XERO",
+    `${integration}`,
+    "puzzles fitting together"
+  );
+  new Qualities(
+    "Local",
+    "Based in Sydney, Northern Beaches",
+    `${local}`,
+    "pin drop on map"
+  );
+  new Qualities(
+    "Accurate",
+    "reports & predictions for business growth",
+    `${accurate}`,
+    "target on-point"
+  );
+  new Qualities(
+    "COVID advice",
+    "on relevant government subsidies",
+    `${covidadvice}`,
+    "pulse image"
+  );
+  new Qualities(
+    "Fast & efficient",
+    "timely reporting & lodging to remain compliant",
+    `${efficient}`,
+    "stop watch"
+  );
+  new Qualities(
+    "Cloud based",
+    "live access to information and progress tracking",
+    `${cloudbased}`,
+    "cloud-based technology"
+  );
   return (
     <div className="QualityService pt-4 pb-5">
       <div className="container">

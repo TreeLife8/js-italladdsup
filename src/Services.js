@@ -12,51 +12,61 @@ import SubHeading from "./SubHeading.js";
 import "./Cards.css";
 
 export default function Services() {
-  let services = [
-    {
-      name: "Accounts Receivable",
-      description: "management of your sales & revenue",
-      icon: `${accountsReceivable}`,
-      alt: "hand receiving coins",
-    },
-    {
-      name: "Accounts Payable",
-      description: "management of your bills & expenses",
-      icon: `${accountsPayable}`,
-      alt: "icon of hand with credit card",
-    },
-    {
-      name: "Reconciliation",
-      description: "bank, credit card transactions & petty cash",
-      icon: `${Reconciliation}`,
-      alt: "balancing scales",
-    },
-    {
-      name: "Business Activity Statement (BAS)",
-      description: "inc. GST, PAYGW, PAYGI, FBT, WET and LCT",
-      icon: `${BAS}`,
-      alt: "clip board with financial symbols",
-    },
-    {
-      name: "Payroll & PAYG W",
-      description:
-        "processing of employee’s salaries, taxes, leave and STP reporting...",
-      icon: `${payroll}`,
-      alt: "person with dollars",
-    },
-    {
-      name: "Workers Compensation",
-      description: "obligations compliance and insurance claims",
-      icon: `${workersCompensation}`,
-      alt: "person with broken arm",
-    },
-    {
-      name: "Superannuation",
-      description: "calculations for your employees and yourself",
-      icon: `${superannuation}`,
-      alt: "piggy bank with coins",
-    },
-  ];
+  let services = [];
+  function Services(name, description, icon, alt) {
+    this.name = name;
+    this.description = description;
+    this.icon = icon;
+    this.alt = alt;
+    services.push({
+      name: this.name,
+      description: this.description,
+      icon: this.icon,
+      alt: this.alt,
+    });
+  }
+  new Services(
+    "Accounts Receivable",
+    "management of your sales & revenue",
+    `${accountsReceivable}`,
+    "hand receiving coins"
+  );
+  new Services(
+    "Accounts Payable",
+    "management of your bills & expenses",
+    `${accountsPayable}`,
+    "icon of hand with credit card"
+  );
+  new Services(
+    "Reconciliation",
+    "bank, credit card transactions & petty cash",
+    `${Reconciliation}`,
+    "balancing scales"
+  );
+  new Services(
+    "Business Activity Statement (BAS)",
+    "inc. GST, PAYGW, PAYGI, FBT, WET and LCT",
+    `${BAS}`,
+    "clip board with financial symbols"
+  );
+  new Services(
+    "Payroll & PAYG W",
+    "processing of employee’s salaries, taxes, leave and STP reporting...",
+    `${payroll}`,
+    "person with dollars"
+  );
+  new Services(
+    "Workers Compensation",
+    "obligations compliance and insurance claims",
+    `${workersCompensation}`,
+    "person with broken arm"
+  );
+  new Services(
+    "Superannuation",
+    "calculations for your employees and yourself",
+    `${superannuation}`,
+    "piggy bank with coins"
+  );
   return (
     <div className="Services">
       <SubHeading heading="Here for you..." />
