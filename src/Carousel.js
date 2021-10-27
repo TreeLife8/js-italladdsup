@@ -18,7 +18,7 @@ export default function Carousel() {
             </p>
             <h4 className="referee">Northern Beaches Fabrication</h4>
           </div>
-          <div className="carousel-item" data-bs-interval="5000">
+          <div className="carousel-item">
             <p class="catch phrase">
               <em>
                 Jane, you are fantastic, Daz and I value you as a team member at
