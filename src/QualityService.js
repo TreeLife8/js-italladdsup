@@ -24,7 +24,6 @@ export default function QualityService() {
       icon: this.icon,
       alt: this.alt,
     });
-    console.log(qualities);
   }
   new Qualities(
     "Reliable",
