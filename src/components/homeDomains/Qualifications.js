@@ -1,9 +1,9 @@
 import React from "react";
 import "./Qualifications.css";
-import TaxBoard from "./images/symbols/IAAU - symbol - TAX.jpg";
-import Myob from "./images/symbols/IAAU - symbol - MYOB_logo_RGB-LENOVO-YOGA.jpg";
-import Xero from "./images/symbols/IAAU - symbol - XERO.jpg";
-import ICB from "./images/symbols/IAAU - symbol - ICB_Crest.jpg";
+import TaxBoard from "../../images/symbols/IAAU - symbol - TAX.jpg";
+import Myob from "../../images/symbols/IAAU - symbol - MYOB_logo_RGB-LENOVO-YOGA.jpg";
+import Xero from "../../images/symbols/IAAU - symbol - XERO.jpg";
+import ICB from "../../images/symbols/IAAU - symbol - ICB_Crest.jpg";
 
 export default function Qualifications() {
   let qualifications = [

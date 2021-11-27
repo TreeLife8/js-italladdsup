@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Books from "./images/IAAU - images - bookstack.png";
+import Books from "../../images/IAAU - images - bookstack.png";
 import "./CatchBanner.css";
 import Aos from "aos";
 import "aos/dist/aos.css";

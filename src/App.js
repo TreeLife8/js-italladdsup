@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
 import { Route } from "react-router-dom";
-import Home from "./Home";
-import Packages from "./Packages";
-import Contact from "./Contact";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
-import ScrollToTop from "./ScrollToTop";
+import Home from "./components/homeDomains/Home";
+import Packages from "./components/packagesDomains/Packages";
+import Contact from "./components/otherDomains/Contact";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (

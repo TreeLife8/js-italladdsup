@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
-import workdesk from "./images/IAAU - images - workdesk w computer.png";
-import MailTo from "./MailTo";
+import workdesk from "../../images/IAAU - images - workdesk w computer.png";
+import MailTo from "../MailTo";
 
 export default function Contact() {
   return (

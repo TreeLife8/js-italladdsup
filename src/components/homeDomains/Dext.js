@@ -1,6 +1,6 @@
 import React from "react";
-import DextScreen from "./images/DEXT - laptop and phone.png";
-import DextLogo from "./images/DEXT - logo.png";
+import DextScreen from "../../images/DEXT - laptop and phone.png";
+import DextLogo from "../../images/DEXT - logo.png";
 import "./Dext.css";
 
 export default function Dext() {

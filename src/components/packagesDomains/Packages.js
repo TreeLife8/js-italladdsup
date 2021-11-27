@@ -1,10 +1,10 @@
 import React from "react";
 import "./Packages.css";
-import XERO from "./images/IAAU - image - Xero on devices.png";
-import AdvertiseBanner from "./AdvertiseBanner.js";
-import Testimonials from "./Testimonials";
-import desk from "./images/IAAU - images - workdesk.png";
-import ShapeDivider from "./ShapeDivider";
+import XERO from "../../images/IAAU - image - Xero on devices.png";
+import AdvertiseBanner from "../homeDomains/AdvertiseBanner.js";
+import Testimonials from "../Testimonials";
+import desk from "../../images/IAAU - images - workdesk.png";
+import ShapeDivider from "../ShapeDivider";
 
 export default function Packages() {
   let packages = [

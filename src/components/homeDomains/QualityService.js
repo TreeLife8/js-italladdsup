@@ -1,14 +1,14 @@
 import React from "react";
-import SubHeading from "./SubHeading.js";
-import Reliable from "./images/symbols/IAAU - symbol - reliable.png";
-import uptodate from "./images/symbols/IAAU - symbol - uptodate.png";
-import integration from "./images/symbols/IAAU - symbol - integration.png";
-import local from "./images/symbols/IAAU - symbol - local.png";
-import accurate from "./images/symbols/IAAU - symbol - accurate.png";
-import covidadvice from "./images/symbols/IAAU - symbol - covidadvice.png";
-import efficient from "./images/symbols/IAAU - symbol - efficient.png";
-import cloudbased from "./images/symbols/IAAU - symbol - cloudbased.png";
-import "./Cards.css";
+import SubHeading from "../SubHeading.js";
+import Reliable from "../../images/symbols/IAAU - symbol - reliable.png";
+import uptodate from "../../images/symbols/IAAU - symbol - uptodate.png";
+import integration from "../../images/symbols/IAAU - symbol - integration.png";
+import local from "../../images/symbols/IAAU - symbol - local.png";
+import accurate from "../../images/symbols/IAAU - symbol - accurate.png";
+import covidadvice from "../../images/symbols/IAAU - symbol - covidadvice.png";
+import efficient from "../../images/symbols/IAAU - symbol - efficient.png";
+import cloudbased from "../../images/symbols/IAAU - symbol - cloudbased.png";
+import "../Cards.css";
 import "./QualityService.css";
 
 export default function QualityService() {

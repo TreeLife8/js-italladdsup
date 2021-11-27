@@ -1,15 +1,15 @@
 import React from "react";
 import "./Services.css";
-import accountsReceivable from "./images/symbols/IAAU - symbol - accounts receivable.png";
-import accountsPayable from "./images/symbols/IAAU - symbol - accounts payable.png";
-import Reconciliation from "./images/symbols/IAAU - symbol - reconciliation.png";
-import BAS from "./images/symbols/IAAU - symbol - BAS.png";
-import payroll from "./images/symbols/IAAU - symbol - payroll.png";
-import workersCompensation from "./images/symbols/IAAU - symbol - workers-compensation.png";
-import superannuation from "./images/symbols/IAAU - symbol - superannuation.png";
-import Button from "./Button.js";
-import SubHeading from "./SubHeading.js";
-import "./Cards.css";
+import accountsReceivable from "../../images/symbols/IAAU - symbol - accounts receivable.png";
+import accountsPayable from "../../images/symbols/IAAU - symbol - accounts payable.png";
+import Reconciliation from "../../images/symbols/IAAU - symbol - reconciliation.png";
+import BAS from "../../images/symbols/IAAU - symbol - BAS.png";
+import payroll from "../../images/symbols/IAAU - symbol - payroll.png";
+import workersCompensation from "../../images/symbols/IAAU - symbol - workers-compensation.png";
+import superannuation from "../../images/symbols/IAAU - symbol - superannuation.png";
+import Button from "../Button.js";
+import SubHeading from "../SubHeading.js";
+import "../Cards.css";
 
 export default function Services() {
   let services = [];

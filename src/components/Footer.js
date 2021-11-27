@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import logo from "./images/Logos/IAAU - LOGO - full rectangle - 1024 - blue on transparent.png";
-import logotype from "./images/Logos/IAAU - LOGO - type only - white on transparent.png";
-import SCLogo from "./images/Logos/Logo no background CROPPED.png";
-import Arrow from "./images/IAAU - image - ocean arrow.png";
+import logo from "../images/Logos/IAAU - LOGO - full rectangle - 1024 - blue on transparent.png";
+import logotype from "../images/Logos/LOGOTypeWhiteTransparent.png";
+import SCLogo from "../images/Logos/Logo no background CROPPED.png";
+import Arrow from "../images/IAAU - image - ocean arrow.png";
 import MailTo from "./MailTo";
 
 export default function Footer() {
