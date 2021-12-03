@@ -67,10 +67,10 @@ export default function Footer() {
         </Link>
       </div>
       <div className="squiggle-code-link">
-        Crafted by
-        <Link to="/">
+        Crafted by Regina Maher
+        {/* <Link to="/">
           <img className="sclogo" src={SCLogo} alt="it all adds up logotype" />
-        </Link>
+        </Link> */}
       </div>
     </footer>
   );
